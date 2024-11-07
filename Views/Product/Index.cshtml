@@ -1,0 +1,658 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<ul class="notifications"></ul>
+<div class="now-banner ver_vi" style="position: fixed; margin-top: -140px; margin-left: 900px;">
+    <div class="container">
+        <div class="now-search">
+            <div class="form-search">
+                <div class="input-group">
+                    <input type="text" id="txtSearchHome" placeholder="Tìm địa điểm, món ăn, địa chỉ..." value="">
+                    <a href="/ho-chi-minh/danh-sach-dia-diem-giao-tan-noi?q=">
+                        <button type="button" class="btn btn-search" style="background-color: #467764 ;">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="category-list-filter" style="width: 550px;">
+                <a href="/ho-chi-minh/danh-sach-dia-diem-giao-tan-noi">
+                    <span class="category-item ">All</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-food-giao-tan-noi">
+                    <span class="category-item ">Cơm Tấm</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-drink-giao-tan-noi">
+                    <span class="category-item ">Bún Bò</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-vegetarian-giao-tan-noi">
+                    <span class="category-item ">Phở Gà</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-cake-pastry-giao-tan-noi">
+                    <span class="category-item ">Bún Thịt Nướng</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-desserts-giao-tan-noi">
+                    <span class="category-item ">Cơm Chiên</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-pizza-pasta-burger-giao-tan-noi">
+                    <span class="category-item ">Bún Cá</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-soup-based-giao-tan-noi">
+                    <span class="category-item ">Nem Nướng</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-sushi-giao-tan-noi">
+                    <span class="category-item ">Cơm Cháy</span>
+                </a>
+                <a href="/ho-chi-minh/danh-sach-dia-diem-phuc-vu-rice-giao-tan-noi">
+                    <span class="category-item ">Bánh Xèo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+<div class="contain-main-home clearfix" style="margin-top: 70px;">
+    <div class="container">
+        <div class="main-right-home">
+            <section class="slide" style="margin-top: -80px;">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/Images/Product/giao-hang-trong-3-gio.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Images/Product/cantho.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <div class="now-list-restaurant deal-tab" style="margin-top: 100px;">
+
+                <div class="list-restaurant">
+                    <div class="now-loading-restaurant  ">
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                    </div>
+                     <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/nemnuongcairang.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Nem Nướng Cái Răng</h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">95 Trần Chiên, Cái Răng, Tp Cần Thơ</div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content" href="/Product/ProductDetail/1">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/bunnemnuongcaysung.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Bún nem nướng
+                                        Cây Sung
+                                    </h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">Đối
+                                        diện hẻm 388, đường Nguyễn Văn Cừ Nối Dài, phường An Khánh, Ninh Kiều, Cần Thơ
+                                    </div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/buncaong6.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức"> Bún Cá Ông 6
+                                    </h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">35
+                                        Quốc Lộ 91, Quận Thốt Nốt, Cần Thơ</div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/bunthitnuongnamphuong.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Bún thịt
+                                        nướng Nam Phương</h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">Đối
+                                        diện nhà thờ Chánh Tòa, đầu hẻm 29 Nguyễn Thị Minh Khai, An Lạc, Ninh Kiều, Cần
+                                        Thơ.
+                                    </div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/bunbohuehuynhchau.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Bún bò Huế
+                                        Huỳnh Châu
+                                    </h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM"> Số
+                                        166B đường Phan Đình Phùng, phường An Lạc, quận Ninh Kiều, thành phố Cần Thơ
+                                    </div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/hutieuvienlac.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Hủ Tiếu Viễn
+                                        Lạc</h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">209
+                                        Phan Đình Phùng,
+                                        P. Tân An, Quận Ninh Kiều, Cần Thơ</div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/phothien.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Phở Thiện
+                                    </h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">104
+                                        Trương Định-
+                                        An Cừ- Ninh Kiều- Cần Thơ.
+                                    </div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/laumam75.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Lẩu Mắm 75
+                                    </h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM">Số 75,
+                                        đường Trần Việt Châu, quận Ninh Kiều, thành phố Cần Thơ.
+                                    </div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/banhxeo7toi.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Bánh xèo 7
+                                        Tới</h4>
+                                    <div class="address-res" title="35 Thích Quảng Đức, P. 4, Phú Nhuận, TP. HCM"> 45,
+                                        đường Hoàng Quốc Việt, phường An Bình, Ninh Kiều, Cần Thơ
+                                    </div>
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contain-main-home clearfix" style="margin-top: -130px;">
+    <div class="container">
+        <div class="main-right-home">
+            <div class="now-list-restaurant deal-tab">
+
+                <div class="list-restaurant">
+                    <div class="now-loading-restaurant  ">
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                        <div class="box-loading">
+                            <div class="box-thumbnail"></div>
+                            <div class="box-line-df"></div>
+                            <div class="box-line-lgx"></div>
+                            <div class="box-line-lg"></div>
+                        </div>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Giảm Buổi Tối
+                                        50%</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm 50%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Giảm 32%</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 32%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Buổi Tối 0
+                                        Đồng</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 100%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Ăn Trưa Giá
+                                        Rẻ</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 25%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Không Lo Về
+                                        Giá</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 50%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Ăn No Nê Giá
+                                        Rẻ</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 34%
+                                </p>
+                                <div class="opentime-status">
+                                    <span class="stt online" title="Mở cửa"
+                                        style="color: rgb(35, 152, 57); background-color: rgb(35, 152, 57);"></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+                                <div class="tag-preferred">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>Yêu thích
+                                </div>
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Rẻ Quá Đi
+                                    </h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Deal Siêu Hời
+                                    </h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-restaurant">
+                        <a target="_blank" class="item-content"
+                            href="/ho-chi-minh/fruit-crush-trai-cay-tuoi-an-vat-thich-quang-duc">
+                            <div class="img-restaurant">
+
+                                <img src="~/Images/Product/voucher.jpg" class="">
+                            </div>
+                            <div class="info-restaurant">
+                                <div class="info-basic-res">
+                                    <h4 class="name-res"
+                                        title="Fruit Crush - Trái Cây Tươi &amp; Ăn Vặt - Thích Quảng Đức">Không Tốn
+                                        Tiền</h4>
+
+                                </div>
+                                <p class="content-promotion">
+                                    <i class="fas fa-tag"></i> Giảm hết 12%
+                                </p>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

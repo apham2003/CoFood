@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FoodOrderWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FoodOrderWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Logo\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo\\logo.png"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Logo\\ung-dung-dat-do-an-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Logo\\ung-dung-dat-do-an-1.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\banhxeo7toi.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\banhxeo7toi.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\bunbohuehuynhchau.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\bunbohuehuynhchau.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\buncaong6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\buncaong6.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\bunnemnuongcaysung.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\bunnemnuongcaysung.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\bunthitnuongnamphuong.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\bunthitnuongnamphuong.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\cantho.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\cantho.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\comtam.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\comtam.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\giao-hang-trong-3-gio.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\giao-hang-trong-3-gio.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\hutieuvienlac.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\hutieuvienlac.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\laumam75.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\laumam75.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\nemnuongcairang.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\nemnuongcairang.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\phothien.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\phothien.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\ung-dung-dat-do-an-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\ung-dung-dat-do-an-1.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\voucher.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\voucher.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\z5939570971008_bbcec06a607835181990bb2b2bf1fc13.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\z5939570971008_bbcec06a607835181990bb2b2bf1fc13.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\z5939572145959_b929a6f50cf0adb1324913440147dd7c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\z5939572145959_b929a6f50cf0adb1324913440147dd7c.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\z5939572549434_fb6e58123d2b8f428f2736f6060ba1ff.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\z5939572549434_fb6e58123d2b8f428f2736f6060ba1ff.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\z5939572936957_1c75b3cb42bfb38a66156cb68ffe2785.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\z5939572936957_1c75b3cb42bfb38a66156cb68ffe2785.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\Images\\Product\\z5939578731166_9ff406b463fcf0bae7f5d726c4cff208.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\z5939578731166_9ff406b463fcf0bae7f5d726c4cff208.jpg"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\logninCss.css",
+      "PackagePath": "staticwebassets\\css\\logninCss.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\notificationCss.css",
+      "PackagePath": "staticwebassets\\css\\notificationCss.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\productCss.css",
+      "PackagePath": "staticwebassets\\css\\productCss.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\productDetail.css",
+      "PackagePath": "staticwebassets\\css\\productDetail.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\stylePayment.css",
+      "PackagePath": "staticwebassets\\css\\stylePayment.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\css\\style_root.css",
+      "PackagePath": "staticwebassets\\css\\style_root.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\js\\slick.js",
+      "PackagePath": "staticwebassets\\js\\slick.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\EXE101\\FoodOrderWeb\\FoodOrderWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FoodOrderWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FoodOrderWeb.props",
+      "PackagePath": "build\\FoodOrderWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FoodOrderWeb.props",
+      "PackagePath": "buildMultiTargeting\\FoodOrderWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FoodOrderWeb.props",
+      "PackagePath": "buildTransitive\\FoodOrderWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

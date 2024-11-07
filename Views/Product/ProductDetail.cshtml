@@ -1,0 +1,168 @@
+@model Product
+
+@{
+    ViewData["Title"] = "ProductDetail";
+}
+
+<div class="wrapper">
+    <div class="now-detail-restaurant clearfix" style="margin-top: 30px;">
+        <div class="container">
+            <div class="detail-restaurant-img">
+                <img src="~/Images/Product/bunnemnuongcaysung.jpg" alt="" class="">
+            </div>
+            <div class="detail-restaurant-info" style="padding-left: 100px;">
+                <nav aria-label="breadcrumb"></nav>
+                <div class="kind-restaurant">
+                    <span>Quán Ăn Lâu Đời</span>
+                </div>
+                <h1 class="name-restaurant">@Model.ProductName</h1>
+                <div class="address-restaurant">93 Nguyễn Văn Cừ - Phường An Khánh - Quận Ninh Kiều- Tp Cần Thơ</div>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="full">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="full">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="full">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="full">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span class="full">
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div>
+                    <span class="number-rating">8</span>đánh giá trên Cồ Food
+                </div>
+                <div class="status-restaurant">
+                    <div class="opentime-status">
+                        <span class="stt online" title="Mở cửa"></span>
+                    </div>
+                    <div class="time">
+                        <i class="far fa-clock"></i>07:00 - 22:30
+                    </div>
+                </div>
+
+                <div class="mb-3">
+
+                    <span class="h5 ms-2  fs-4 text">
+                        <p class="d-inline text">₫30,000
+                        </p>
+                    </span>
+                </div>
+                <div class=" buttonPayment">
+                    <a class="text-decoration-none text-light d-block"
+                        style="text-align: center; margin-left: 10px; width: 200px;height: 40px;line-height: 2.5; background-color: #467764;"
+                        asp-action="Order" asp-controller="">
+                        Thêm Vào Giỏ Hàng
+                    </a>
+                </div>
+                <div class=" buttonPayment">
+                    <a class="text-decoration-none text-light d-block"
+                        style="text-align: center; margin-left: 10px; margin-top: 10px; width: 200px;height: 40px;line-height: 2.5; background-color: #467764;"
+                        asp-action="Order" asp-controller="Order">
+                        Đặt Món Ngay
+                    </a>
+                </div>
+                <div class="share-social clearfix">
+                    <div class="share-social-box">
+                        <div class="fb-like" data-layout="button" data-action="like" data-size="small"
+                            data-show-faces="false" data-share="true" data-colorscheme="light"
+                            data-kid-directed-site="false">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container relative clearfix"">
+    <div class=" now-menu-restaurant">
+        <div class="menu-restaurant-content-tab">
+            <div class="menu-restaurant-container">
+                <div class="menu-restaurant-detail">
+                    <div class="r74CsV" style="width: 1202px; margin-top: 20px;">
+                        <div class="uLQaPg">
+                            <a class="lG5Xxv" href=".....">
+                                <div class="H0wYar y8f_ga">
+                                    <div class="nkvGdS">
+                                        <picture class="aJsrtQ">
+                                            <img width="80" loading="lazy" class="PbCa1H lazyload Qm507c"
+                                                src="~/Images/Product/comtam.jpg" alt="click here to visit shop"
+                                                height="80">
+                                        </picture>
+                                    </div>
+                            </a>
+                            <div class="PYEGyz">
+                                <div class="fV3TIn">Bún Nem Nướng Cây Sung</div>
+                                <div class="mMlpiZ">
+                                </div>
+                                <div class="NyRGTK">
+                                    <a class="btn btn-light btn--s btn--inline btn-light--link Z6yFUs" href=""
+                                        style="background-color: rgb(19, 148, 240);">
+                                        <span>Xem Quán</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="NGzCXN">
+                            <div class="YnZi6x">
+                                <label class="ffHYws">Đánh giá</label>
+                                <span class="Cs6w3G">15</span>
+                            </div>
+                            <div class="YnZi6x">
+                                <label class="ffHYws">tỉ lệ phản hồi</label>
+                                <span class="Cs6w3G">95%</span>
+                            </div>
+                            <div class="YnZi6x">
+                                <label class="ffHYws">tham gia</label>
+                                <span class="Cs6w3G">6 tháng trước</span>
+                            </div>
+                            <a class="YnZi6x aArpoe" href="/samsung_official_store#product_list">
+                                <label class="ffHYws">Sản phẩm</label>
+                                <span class="Cs6w3G">5</span>
+                            </a>
+                            <div class="YnZi6x">
+                                <label class="ffHYws">Người theo dõi</label>
+                                <span class="Cs6w3G">50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotions-order" style="margin-top: 20px;">
+                        <div id="promotion-item" class="promotion-item">
+                            <div>
+                                <img src="https://mms.img.susercontent.com/vn-11134513-7r98o-ltm6j1v3kah653"
+                                    alt="VIB giảm 40k" class="icon-promotion">
+                                <div class="content">VIB giảm 40k</div>
+                            </div>
+                            <button class="code-copy" id="promotion-item-copy">
+                                <span class="promo_VIB40F">Copy code</span>
+                                <span class="fa fa-copy"></span>
+                            </button>
+                        </div>
+                        <div id="promotion-item" class="promotion-item">
+                            <div>
+                                <img src="https://mms.img.susercontent.com/vn-11134513-7r98o-ltm6j1v3kah653"
+                                    alt="HOME CREDIT giảm 50k cho đơn từ 100k" class="icon-promotion">
+                                <div class="content">HOME CREDIT giảm 50k cho đơn từ 100k</div>
+                            </div>
+                            <button class="code-copy" id="promotion-item-copy">
+                                <span class="promo_HOMECRE50">Copy code</span>
+                                <span class="fa fa-copy"></span>
+                            </button>
+                        </div>
+                        <div class="promotion-item">
+                            <img src="https://mms.img.susercontent.com/vn-11134513-7r98o-ltm6j1v3kah653"
+                                alt="Giảm giá một số món ăn trên menu" class="icon-promotion">
+                            <div class="content">Giảm giá một số món ăn trên menu</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
